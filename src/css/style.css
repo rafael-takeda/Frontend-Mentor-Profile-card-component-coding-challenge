@@ -1,0 +1,61 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1, h1 span {
+    font-weight: bold;
+}
+
+span, h2 {
+    color: hsl(227, 10%, 46%);
+}
+
+.cartao {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.minhas-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.numeros-do-perfil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    /* border-top: 1px solid hsl(231, 6%, 75%); */
+}
+
+.quantidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-perfil {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.foto-perfil img {
+    border-radius: 50%;
+}
+
+.nome-idade {
+    margin-bottom: 20px;
+}
+
+.cidade {
+    margin-bottom: 30px;
+}
